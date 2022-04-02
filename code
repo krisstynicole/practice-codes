@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    //get how many yards ran
+    int yards = get_int ("yards: ");
+
+    // if ran over 10 yards, then print high five.
+    if (yards > 10)
+    {
+        printf("high five!\n");
+    }
+    // if ran over 1 yard and less than 10 yards, print Ra! for how many yards ran.
+    for (int i = 0; i < yards; i++)
+    {
+        if (yards > 1 &&  yards < 10)
+        {
+            printf("Ra!");
+        }
+    }
+    printf("\n");
+
+    // if ran less than 1 yard, print shh!.
+    if (yards < 1)
+    {
+        printf("Shh!\n");
+    }
+
+    return 0;
+
+}
