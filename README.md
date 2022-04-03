@@ -1,4 +1,4 @@
-Here is this Repository, you will find some practice problems that I solved. 
+In this Repository, you will find some practice problems that I solved. 
 I am new to coding and want to try to learn as much as I can and what best way 
 to do that by solving some practice problems. 
 
