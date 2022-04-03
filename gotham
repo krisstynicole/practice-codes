@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    int criminals = get_int("How many criminals? ");
+
+    if (criminals < 5)
+    {
+        printf("I got this!\n");
+    }
+
+    if (criminals >= 5 && criminals <= 10)
+    {
+        printf("Help me Batman\n");
+    }
+
+    if (criminals > 10)
+    {
+        printf("Good Luck out there!\n");
+    }
+
+    return 0;
+}
